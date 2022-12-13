@@ -1,0 +1,4 @@
+# Created at 2022-12-09T08:15:18.017
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Velocity\Batch 9th July 2022\09JULC\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
