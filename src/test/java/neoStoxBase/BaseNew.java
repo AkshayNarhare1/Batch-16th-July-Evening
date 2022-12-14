@@ -22,6 +22,8 @@ public class BaseNew
 		driver= new ChromeDriver();
 		driver.get(neoStoxUtility1.UtilityNew.readDataFromPropertyFile("devurl"));
 		driver.manage().window().maximize();
+		
+		
 		UtilityNew.wait(driver, 1000);
 		
 		
