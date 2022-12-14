@@ -22,16 +22,11 @@ public class BaseNew
 		driver= new ChromeDriver();
 		driver.get(neoStoxUtility1.UtilityNew.readDataFromPropertyFile("devurl"));
 		driver.manage().window().maximize();
-		
-		Reporter.log("launching browser..",true);
-		
-		Reporter.log("launching browser..",true);
 		UtilityNew.wait(driver, 1000);
 		
 		
 		
-		
-		
+		Reporter.log("launching browser..",true);
 	}
 	
 }
